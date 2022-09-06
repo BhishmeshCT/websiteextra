@@ -1,0 +1,211 @@
+body{
+    margin: 0;   
+}
+
+#main{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 0;
+
+    background-color: rgb(241, 241, 241);
+
+}
+
+#logo{
+    /* height: 50px; */
+    text-align: center;
+    /* color: white; */
+}
+
+#logo img{
+    width: 100%;
+    height: 180px;
+}
+
+#navbar{
+    display: flex;
+    margin-left: 60%;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-top: 20px;
+}
+
+#navbar a{
+    /* color: white; */
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+#scrollmenu{
+    background-color: white;
+    margin-top: 20px;
+    overflow: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    /* margin-bottom: 50px; */
+}
+
+#scrollmenu img{
+    height: 200px;
+}
+
+#nxtslide{
+    font-size: 30px;
+    position: absolute;
+    /* top: -300px; */
+    /* z-index: 99; */
+    margin-left: 84%;
+    margin-top: -130px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 40%;
+    background-color: white;
+    text-decoration: none;
+}
+
+#nxtslide:hover{
+    cursor: pointer;
+}
+
+
+
+#prevslide{
+    font-size: 30px;
+    position: absolute;
+    /* top: -300px; */
+    /* z-index: 99; */
+    margin-left: 25px;
+    margin-top: -130px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 40%;
+
+    background-color: white;
+    text-decoration: none;
+}
+
+#prevslide:hover{
+    cursor: pointer;
+}
+
+
+#form{
+    margin-top: 20px;
+    /* background-color: coral; */
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 500px;
+    border: solid 2px black;
+   
+}
+
+.heading{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    /* margin-top: 50px; */
+}
+
+#form label{
+    font-size: 25px;
+   
+}
+
+#form input{
+    height:25px;
+    width: 200px;
+    border-radius: 2px;
+    border: 1px solid
+}
+
+#form button{
+    width: 150px;
+    padding:5px;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#input1{
+    margin-left: 1%;
+}
+
+#input2{
+    margin-left: 14%;
+}
+
+#input3{
+    margin-left: 13%;
+}
+
+.formelements{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    margin-top: 60px;
+    /* border: solid 2px; */
+}
+
+.card{
+/* border:solid 1px ; */
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+padding: 10px;
+font-size: 20px;
+border: solid 2px darkgrey;
+border-radius: 5px;
+}
+
+.card span{
+    margin-right: 5px;
+}
+
+.details{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 30px;
+    /* margin-top: 15px; */
+}
+
+.info{
+    margin: 7px;
+}
+
+.close{
+    position: absolute;
+margin-left: 200px;
+margin-top: -150px;
+/* background-color: white; */
+border: 0px;
+font-weight: bold;
+font-size: 22px;
+
+color: red;
+
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+    background-color: darkgrey;
+    margin-left: -60px;
+    margin-right: -60px;
+    
+    
+}
